@@ -14,12 +14,12 @@
  *= require_self
  */
 
+ .mint-tile {
+   background-color: #DAF7A6;
+ }
+
 .yellow-tile {
   background-color: #FFC300;
-}
-
-.mint-tile {
-  background-color: #DAF7A6;
 }
 
 .purple-tile {
@@ -62,7 +62,7 @@
   font-size: 20px;
 }
 
-.tile > ol {
+.tile > ol > li {
   font-size: 20px;
 }
 

@@ -1,46 +1,79 @@
-<h1>Welcome to your dashboard!</h1>
-<p>Plop down in the middle where everybody walks jump on human and sleep on her all night long be long in the bed, purr in the morning and then give a bite to every human around</p>
-<a href="/about">What's this about?</a>
 <div id='page'>
-  <div class='tile' id='treats-of-month'>
-    <h2>Treats of the Month</h2>
-    <ol>
-      <li>Pupcakes</li>
-      <li>Biscuits</li>
-      <li>Mom's Socks</li>
-    </ol>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Welcome to your dashboard!
+
+      </h1>
+      <h2 class="subtitle">
+        Plop down in the middle where everybody walks jump on human and sleep on her all night long be long in the bed, purr in the morning and then give a bite to every human around
+      </h2>
+      <a class="button" href="/about">What's this about?</a>
+    </div>
   </div>
-  <div class='tile'>
-    <h2>Photo of the Day</h2>
-    <img id='photo-of-day' src='https://i.pinimg.com/originals/ac/26/f1/ac26f17c9134fa4a1039665fb556eb29.jpg'/>
+</section>
+
+<section class="section">
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification is-primary">
+            <p class="title">Treats of the Month</p>
+
+            <p class="subtitle">  <ol>
+              <li>Pupcakes</li>
+              <li>Biscuits</li>
+              <li>Mom's Socks</li>
+            </ol></p>
+          </article>
+          <article class="tile is-child notification is-danger">
+            <p class="title"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Cat Watch <i class="fa fa-exclamation-triangle" aria-hidden="true"></i></p>
+            <p class="subtitle">There are currently 3 cats within a 200 ft radius</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-info">
+            <p class="title">Photo of the Day</p>
+            <figure class="image ">
+              <img id='photo-of-day' src='https://i.pinimg.com/originals/ac/26/f1/ac26f17c9134fa4a1039665fb556eb29.jpg'/>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-success">
+        <div class="content">
+          <p class="title">Trending Sites</p>
+          <p class="subtitle"><ul>
+            <li>Tips and Tricks</li>
+              <ul>
+                <li>
+                  <a href="http://www.dogster.com/">Dogster</a>
+                </li>
+                <li>
+                  <a href="http://dogtime.com/">Dogtime</a>
+                </li>
+              </ul>
+            <li>Travel Guides</li>
+              <ul>
+                <li> <a href="http://dogfriendly.com/">DogFriendly</a></li>
+              </ul>
+            <li>Just for Fun</li>
+              <ul>
+                <li>
+                  <a href="https://www.thedodo.com/">The Dodo</a>
+                </li>
+                <li><a href="https://barkbox.com/">Bark Box</a></li>
+              </ul>
+          </ul></p>
+          <div class="content">
+            <!-- Content -->
+          </div>
+        </div>
+      </article>
+    </div>
   </div>
-  <div class='tile'>
-    <h2>Trending Sites</h2>
-    <ul>
-      <li>Tips and Tricks</li>
-        <ul>
-          <li>
-            <a href="http://www.dogster.com/">Dogster</a>
-          </li>
-          <li>
-            <a href="http://dogtime.com/">Dogtime</a>
-          </li>
-        </ul>
-      <li>Travel Guides</li>
-        <ul>
-          <li> <a href="http://dogfriendly.com/">DogFriendly</a></li>
-        </ul>
-      <li>Just for Fun</li>
-        <ul>
-          <li>
-            <a href="https://www.thedodo.com/">The Dodo</a>
-          </li>
-          <li><a href="https://barkbox.com/">Bark Box</a></li>
-        </ul>
-    </ul>
-  </div>
-  <div class='tile'>
-    <h2>Cat Watch</h2>
-    <p> There are currently 3 cats within a 200 ft radius</p>
-  </div>
-</div>
+</section>

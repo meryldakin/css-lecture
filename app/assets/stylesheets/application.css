@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+.padded2x {
+  padding: 10px;
+  margin: 1%;
+}

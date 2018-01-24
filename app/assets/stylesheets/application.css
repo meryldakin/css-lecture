@@ -13,3 +13,105 @@
  *= require_tree .
  *= require_self
  */
+
+.yellow-tile {
+  background-color: #FFC300;
+}
+
+.mint-tile {
+  background-color: #DAF7A6;
+}
+
+.purple-tile {
+  background-color: #9354ad;
+}
+
+#header {
+  background-color: #58D68D;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  border-radius: 10px;
+}
+
+#welcome {
+  background-color: #c49ad6;
+  width: 80%;
+  margin-bottom: 25px;
+  display: inline-block;
+  font-family: 'Lobster Two';
+  color: white;
+  border: double black thick;
+}
+
+.tile {
+  border: solid black 7px;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  margin: 25px 10px 25px 10px;
+  text-align: center;
+  list-style-position: inside;
+  font-family: 'Patua One';
+}
+
+.tile p {
+  font-size: 20px;
+}
+
+.tile > ul > li {
+  font-size: 20px;
+}
+
+.tile > ol {
+  font-size: 20px;
+}
+
+.tile h2 {
+  font-size: 30px;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.tile:hover {
+  border: solid #FF4500 7px;
+}
+
+#photo-of-day {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: #4A235A;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  left: 9.75%;
+  border: black 5px;
+  border-style: double;
+}
+
+body {
+  text-align: center;
+  background-color: #900C3F;
+}
+
+/*ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-position: inside;
+}*/
+
+
+/*.green-tile {
+  background-color: #58D68D;
+}*/

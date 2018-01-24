@@ -1,24 +1,33 @@
-# README
+# OBJECTIVES
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Become familiar with CSS and Frameworks that make styling web applications faster and easier
 
-Things you may want to cover:
+Things to cover:
 
-* Ruby version
+* What is HTML?
+Hypertext Markup Language - HTML is the language for describing the structure of Web pages
 
-* System dependencies
+* What is CSS?
+Cascading Style Sheets - describes how HTML elements are to be displayed on screen
 
-* Configuration
+* CSS Formats
+  - inline
+  - internal
+  - external
 
-* Database creation
+* Selectors
+  ** Type
+    - Ex. p {…}
+  ** Id
+    - Ex. #box {…}
+  ** Class
+    - Ex. .thick {…}
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Descendent
+#nav li {…}
+Child
+#list > li {…}
+Sibling
+h3 + p {…}
+Preceded
+.styleafter ~ h2 {…}

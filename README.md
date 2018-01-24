@@ -33,4 +33,4 @@ Preceded
 .styleafter ~ h2 {…}
 
 
-*Credit to @perpepajn25 for co-writing*
+*Credit to [@perpepajn25](www.github.com/perpepajn25) for co-writing*

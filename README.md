@@ -31,3 +31,6 @@ Sibling
 h3 + p {…}
 Preceded
 .styleafter ~ h2 {…}
+
+
+*Credit to perpepajn25 for co-writing*
